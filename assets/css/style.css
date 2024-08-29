@@ -1,0 +1,87 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8bb0b;
+    flex-direction: column; /* Cambiado para centrar verticalmente */
+}
+
+.intro {
+    text-align: center;
+    font-size: 2em;
+    transition: opacity 3s ease; /* Añade una transición de 3 segundos para la opacidad */
+}
+
+.hidden {
+    display: none;
+}
+
+#main-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* background-color: #f9f9f9; */ 
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+#menuLeft {
+    width: 99%;                /* Ajusta el ancho según sea necesario */
+    flex-direction: column;    /* Alinea los elementos de la columna verticalmente */
+    position: absolute;
+    border: 3px solid #ccc; /* Borde en el lado izquierdo */
+    overflow-wrap: break-word; /* Asegura que el texto se ajuste dentro del contenedor y no lo desborde */
+    max-width: 190px; /* Limita el ancho máximo del contenedor */
+    left: 10px; /* Ajusta la posición desde el borde izquierdo */
+    color: rgb(94, 4, 4);
+
+
+
+}
+
+#description {
+    right: 10px;;              /* Ajusta el ancho según sea necesario */
+    flex-direction: column;    /* Alinea los elementos de la columna verticalmente */
+    position: absolute;
+    border: 3px solid #ccc; /* Añade un borde para visibilidad */
+    max-width: 200px; /* Limita el ancho del contenedor */
+    z-index: 10; /* Asegura que este div esté por encima de otros elementos */
+
+}
+
+.rigt-column {
+    text-align: center;  /* Alinea el contenido a la derecha (por defecto) */
+}
+
+
+#description p {
+    display: flex;
+    flex-direction: column; /* Distribuye los elementos verticalmente */
+    margin: 5%;              /* Elimina márgenes adicionales */
+}
+
+
+ol {
+    padding-left: 20px;
+}
+
+.right-column h2 {
+    margin-top: 0;
+}
+
+.right-column p {
+    margin: 0;
+}
+
+.right-column span {
+    display: block;          /* Asegura que cada <span> ocupe una línea completa */
+    margin-bottom: 5px;      /* Añade un pequeño espacio entre los <span> */
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <h1>FORMULARIO</h1>
+
+    <form action="./gracias.html" method="get">
+      <label for="nombre"><strong>NOMBRE</strong></label>
+      <br />
+
+      <input
+        required
+        name="nombre"
+        id="nombre"
+        type="text"
+        placeholder="Ingrese su nombre"
+      />
+      <br />
+      <br />
+
+      <label for="apellido"><strong>DIRECCION</strong></label>
+      <br />
+
+      <input
+        required
+        name="apellido"
+        id="apellido"
+        type="text"
+        placeholder="Ingrese su direccion"
+      />
+      <br />
+      <br />
+
+      <label for="especialidad"><strong>ESPECIALIDAD MEDICA</strong></label>
+      <br />
+
+      <select name="especialidad" id="especialidad" required>
+        <option value="" selected>Elija la especialidad</option>
+        <br />
+
+        <option value="">MEDICINA INTERNA</option>
+        <option value="">MEDICINA GENERAL</option>
+        <option value="">TRAUMATALOIGIA</option>
+        <option value="">NUTRICIONISTA</option>
+        <option value="">CARDIOLOGIA</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="fecha"><strong>FECHA</strong></label>
+      <br />
+      <input required type="date" name="fecha" id="fecha" />
+      <br />
+      <br />
+      <label for="hora"><strong>HORA</strong></label>
+      <br />
+      <input required type="time" name="hora" id="hora" />
+      <br />
+      <br />
+      <label for="correo"><strong>CORREO</strong></label>
+      <br />
+      <input required type="email" name="email" id="correo" />
+      <br />
+      <br />
+      <button type="submit"><strong>CONFIRMAR</strong></button>
+    </form>
+
+    <br>
+    <br>
+    <a href="../proyectos.html">Volver a la lista de proyectos</a>
+  </body>
+</html>

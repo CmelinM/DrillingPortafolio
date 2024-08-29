@@ -1,0 +1,15 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30c4d4;
+  flex-direction: column; /* Cambiado para centrar verticalmente */
+
+
+  z-index: 4000; /* Asegura que este div esté por encima de otros elementos */
+}

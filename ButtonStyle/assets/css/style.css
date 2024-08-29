@@ -1,0 +1,62 @@
+
+
+
+h1 {
+    text-align: center; /* centra y alinea el elemneto h1 */
+    margin-bottom: 20px; /* Controla espacio entre el titulo h1 y los botones */
+}
+
+div {
+    font-family: Arial, sans-serif; /* asigna tipo de letra al texto */
+    display: flex; /* permite alinear elementos en filas o columnas */
+    justify-content: center; /* centra los elementos horizontalmente dentro del contenedor */
+    align-items: center; /* alinea los elementos verticalmente dentro del contenedor */
+    text-align: center; /* alinea el texto dentro de los botones */
+}
+
+
+
+.button-container {
+    display: flex; /* Asegura que los botones estén alineados horizontalmente */
+    gap:10px; /* Espacio entre que existe entre cada uno de los botones */
+    padding-top: 10px; /* Espacio entre el titulo h1 y los botones */
+}
+
+
+.primary-btn {
+    background-color: #3498db; /* color de fondo para el botón */
+    color: white; /* Ecolor determinado para el texto del boton*/
+    padding: 10px 20px; /* 10px es el relleno superior y inferior, 20xp es el relleno de las izquierda y derecha */
+    border: none; /* elimina los bordes predeterminados */
+    cursor: pointer; /* Estilos para cada botón */
+}
+
+.secondary-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.success-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.danger-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button {
+    font-size: 15px; /* tamaño de los botones */
+    border-radius: 5px;
+}

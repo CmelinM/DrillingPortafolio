@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    position: absolute;
+    top: 20px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid ;
+    text-align: center;
+    
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.color {
+    width: 100px;
+    height: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra al texto para mejor visibilidad */
+}
+
+.rojo {
+    background-color: #FF0000;
+    color: #000;
+}
+
+.blanco {
+    background-color: #FFFFFF;
+    color: #000; /* Texto negro para mejor contraste */
+}
+
+.verde {
+    background-color: #008000;
+    color: #000;
+}
+
+.gris {
+    background-color: #808080;
+    color: #000;
+}
+
+.cafe {
+    background-color: #6F4F28;
+    color: #000;
+}
+
+.azul {
+    background-color: #0000FF;
+    color: #000;
+}
+
+.violeta {
+    background-color: #800080;
+    color: #000;
+}
+
+.rosado {
+    background-color: #FFC0CB;
+    color: #000;
+}
+
+.amarillo {
+    background-color: #FFFF00;
+    color: #000;
+}
+
+.turquesa {
+    background-color: #40E0D0;
+    color: #000;
+}
+
+.naranjo {
+    background-color: #FFA500;
+    color: #000;
+}
+
+.purpura {
+    background-color: #800080;
+    color: #000;
+}
+
+.negro {
+    background-color: #000000;
+    color: white;
+
+}
