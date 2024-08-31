@@ -1,5 +1,9 @@
+.mi-div , .left-column{
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
 body, html{
-    margin: 0;
+    margin: 5%;
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
@@ -13,7 +17,7 @@ body, html{
 .intro {
     text-align: center;
     font-size: 2em;
-    transition: opacity 3s ease; /* Añade una transición de 3 segundos para la opacidad */
+    transition: opacity 6s ease; /* Añade una transición de 3 segundos para la opacidad */
 }
 
 .hidden {
@@ -40,11 +44,14 @@ body, html{
     overflow-wrap: break-word; /* Asegura que el texto se ajuste dentro del contenedor y no lo desborde */
     max-width: 190px; /* Limita el ancho máximo del contenedor */
     left: 10px; /* Ajusta la posición desde el borde izquierdo */
-    color: rgb(94, 4, 4);
-
-
+    color: rgb(133, 2, 2);
 
 }
+.left-column ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Opcional: elimina los puntos de la lista */
+  }
 
 #description {
     right: 10px;;              /* Ajusta el ancho según sea necesario */
@@ -85,3 +92,7 @@ ol {
     margin-bottom: 5px;      /* Añade un pequeño espacio entre los <span> */
 }
 
+
+.animate__animated.animate__flipInX {
+    --animate-duration: 3s;
+  }
